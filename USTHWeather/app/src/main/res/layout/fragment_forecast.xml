@@ -9,6 +9,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Thursday"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="220dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="top|center_horizontal"
+        android:src="@drawable/rainy" />
 
 </FrameLayout>
