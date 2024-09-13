@@ -24,5 +24,18 @@
       tools:layout="@layout/fragment_forecast"
       />
 
+  <com.google.android.material.tabs.TabLayout
+      android:id="@+id/tab"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="10dp">
+
+  </com.google.android.material.tabs.TabLayout>
+
+  <androidx.viewpager.widget.ViewPager
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/Viewpager"/>
+
 
 </LinearLayout>
