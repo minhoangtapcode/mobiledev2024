@@ -24,7 +24,6 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.i(TAG, "onCreate() called");
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_weather);
 
 
