@@ -1,11 +1,13 @@
 package vn.edu.usth.usthweather;
 
 import android.content.res.ColorStateList;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -26,6 +28,13 @@ public class WeatherActivity extends AppCompatActivity {
         Log.i(TAG, "onCreate() called");
         setContentView(R.layout.activity_weather);
 
+        //play music
+        MediaPlayer mediaPlayer= MediaPlayer.create(this, R.raw.weather);
+        mediaPlayer.start();
+
+        //appbar
+        Toolbar toolbar = findViewById(R.id.my_toolbar);
+        setSupportActionBar(toolbar);
 
         viewPager = findViewById(R.id.Viewpager);
         viewpagerAdapter = new ViewpagerAdapter(getSupportFragmentManager());

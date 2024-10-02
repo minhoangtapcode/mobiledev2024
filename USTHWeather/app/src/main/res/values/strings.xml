@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">USTH Weather</string>
+    <string name="title_activity_weather_acitvity">USTH WEATHER</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="HaNoi">Hà Nội</string>
     <string name="MonDay">Thứ Hai</string>
